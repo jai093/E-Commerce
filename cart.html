@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce</title>
+    <script
+      src="https://kit.fontawesome.com/8e208c522a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section id="header">
+      <a href="#"><img src="img/logo.png" class="logo" alt="" /></a>
+      <div>
+        <ul id="navbar">
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li id="lg-bag">
+            <a href="cart.html"
+              ><i class="fa-solid fa-cart-shopping" alt=""></i
+            ></a>
+          </li>
+          <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"><i class="fa-solid fa-cart-shopping" alt=""></i></a>
+        <i id="bar" class="fa-solid fa-bars"></i>
+      </div>
+    </section>
+
+    <section id="cart" class="section-p1">
+      <table width:100%>
+        <thead>
+          <tr>
+            <td>Remove</td>
+            <td>Image</td>
+            <td>Product</td>
+            <td>Price</td>
+            <td>Quantity</td>
+            <td>Subtotal</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <a href="#"><i class="fa-solid fa-circle-xmark"></i></a>
+            </td>
+            <td><img src="img/prod/p1.jpg" alt="" /></td>
+            <td>Cartoon astronut t-shirts</td>
+            <td>$100</td>
+            <td><input type="number" value="1" /></td>
+            <td>$100</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#"><i class="fa-solid fa-circle-xmark"></i></a>
+            </td>
+            <td><img src="img/prod/q8.jpg" alt="" /></td>
+            <td>astronut t-shirts</td>
+            <td>$99</td>
+            <td><input type="number" value="1" /></td>
+            <td>$99</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#"><i class="fa-solid fa-circle-xmark"></i></a>
+            </td>
+            <td><img src="img/prod/p3.jpg" alt="" /></td>
+            <td>Cartoon astronut t-shirts</td>
+            <td>$59</td>
+            <td><input type="number" value="1" /></td>
+            <td>$59</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#"><i class="fa-solid fa-circle-xmark"></i></a>
+            </td>
+            <td><img src="img/prod/q4.jpg" alt="" /></td>
+            <td>Cartoon astronut t-shirts</td>
+            <td>$139</td>
+            <td><input type="number" value="1" /></td>
+            <td>$139</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#"><i class="fa-solid fa-circle-xmark"></i></a>
+            </td>
+            <td><img src="img/prod/p5.jpg" alt="" /></td>
+            <td>Cartoon astronut t-shirts</td>
+            <td>$119</td>
+            <td><input type="number" value="1" /></td>
+            <td>$119</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+      <div id="coupon">
+        <h3>Apply coupon</h3>
+        <div>
+          <input type="text" placeholder="Enter your coupon" />
+          <button class="normal">Apply</button>
+        </div>
+      </div>
+      <div id="subtotal">
+        <h3>Cart totals</h3>
+        <table>
+            <tr>
+                <td>Cart Subtotal</td>
+                <td>$129</td>
+            </tr>
+            <tr>
+                <td>Shipping</td>
+                <td>Free</td>
+            </tr>
+            <tr>
+                <td><strong>Total</strong></td>
+                <td><strong>$129</strong></td>
+            </tr>
+        </table>
+        <button class="normal">Apply to check</button>
+      </div>
+    </section>
+    <footer class="section-p1">
+      <div class="col">
+        <img src="img/logo.png" class="logo1" />
+        <h4>Contact</h4>
+        <p><strong>Address:</strong>Lorem ipsum dolor sit, amet consectetur</p>
+        <p><strong>Phone:</strong>+91 1234567895</p>
+        <p><strong>Timings:</strong> 10:00 - 05:00 , Mon - Sat</p>
+        <div class="follow">
+          <h4>Follow Us</h4>
+          <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-pinterest"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <h4>About us</h4>
+        <a href="#">About us</a>
+        <a href="#">Delivery information</a>
+        <a href="#">Privacy policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact us</a>
+      </div>
+      <div class="col">
+        <h4>My Profile</h4>
+        <a href="#">Sign In</a>
+        <a href="#">view cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track my order</a>
+        <a href="#">Help</a>
+      </div>
+      <div class="col ins">
+        <h4>Install App</h4>
+        <p>From App Store or Google Store</p>
+        <div class="row">
+          <img src="img/pay/app.jpg" alt="" />
+          <img src="img/pay/play.jpg" alt="" />
+        </div>
+        <p>Secured Patment Gateways</p>
+        <img src="img/pay/pay.png" alt="" />
+      </div>
+
+      <div class="cr">
+        <p>©2024.CodeAlpha - HTML CSS E-commerce Template</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
